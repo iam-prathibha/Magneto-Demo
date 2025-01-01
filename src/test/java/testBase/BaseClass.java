@@ -45,7 +45,7 @@ public class BaseClass {
 			logger.info("--------- Entered into the remote condition -----------");
 			DesiredCapabilities capabilities= new DesiredCapabilities();
 			if(os.equalsIgnoreCase("mac")) {
-				capabilities.setPlatform(Platform.MAC);
+				capabilities.setPlatform(Platform.LINUX);
 			}
 			else if(os.equalsIgnoreCase("windows")){
 				capabilities.setPlatform(Platform.WIN11);
@@ -60,7 +60,7 @@ public class BaseClass {
 			default: System.out.println("Invalid Browser"); return;
 			}
 			logger.info("--------- Desired Capabilities go set -----------");
-			URL remoteUrl= new URL("http://192.168.2.29:4444/");
+			URL remoteUrl= new URL("http://192.168.2.29:4444/wd/hub");
 			logger.info("--------- Remote URL got Set -----------");
 			driver= new RemoteWebDriver(remoteUrl,capabilities);
 			logger.info("--------- Remote web driver got created -----------");
