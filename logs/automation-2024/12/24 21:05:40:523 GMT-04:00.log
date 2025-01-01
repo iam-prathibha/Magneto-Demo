@@ -1,0 +1,49 @@
+20:38:21.557 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ****** clicked on create an account link **********
+20:38:22.036 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered mail : AyYvT@gmail.com ********
+20:38:22.323 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered password : DiUxEMZ5@ ********
+20:38:24.214 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ****** Verifying Regestration Test Case Started **********
+20:38:24.858 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ****** clicked on create an account link **********
+20:38:25.057 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered mail : NbMpj@gmail.com ********
+20:38:25.087 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered password : ash2SIto@ ********
+20:38:25.533 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******************** Started validating the confirmation message ******************
+20:38:25.567 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******** Verifying Registration Test Case Finished **********
+20:38:28.267 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******************** Started validating the confirmation message ******************
+20:38:28.285 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******** Verifying Registration Test Case Finished **********
+20:43:51.910 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/santoshkumarmedisetty/eclipse-workspace/OpenCartV1/master.xml
+
+20:43:56.311 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Verifying Regestration Test Case Started **********
+20:43:57.024 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** clicked on create an account link **********
+20:43:57.397 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered mail : zOSeJ@gmail.com ********
+20:43:57.545 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered password : UIe2mzNT@ ********
+20:44:01.034 [main] INFO  testCases.TC001_AccountRegistrationTest - ******************** Started validating the confirmation message ******************
+20:44:01.081 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Verifying Registration Test Case Finished **********
+20:44:10.138 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/santoshkumarmedisetty/eclipse-workspace/OpenCartV1/crossBrowserTestng.xml
+
+20:44:13.791 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ****** Verifying Regestration Test Case Started **********
+20:44:14.613 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ****** clicked on create an account link **********
+20:44:15.133 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered mail : aSxEj@gmail.com ********
+20:44:15.323 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered password : uCcsOu7a@ ********
+20:44:17.445 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ****** Verifying Regestration Test Case Started **********
+20:44:18.177 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ****** clicked on create an account link **********
+20:44:18.383 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered mail : QMhGB@gmail.com ********
+20:44:18.417 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered password : sPiohM2a@ ********
+20:44:18.683 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******************** Started validating the confirmation message ******************
+20:44:18.714 [TestNG-tests-1] INFO  testCases.TC001_AccountRegistrationTest - ******** Verifying Registration Test Case Finished **********
+20:44:21.811 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******************** Started validating the confirmation message ******************
+20:44:21.896 [TestNG-tests-2] INFO  testCases.TC001_AccountRegistrationTest - ******** Verifying Registration Test Case Finished **********
+20:59:53.396 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/santoshkumarmedisetty/eclipse-workspace/OpenCartV1/master.xml
+
+21:03:18.880 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/santoshkumarmedisetty/eclipse-workspace/OpenCartV1/master.xml
+
+21:04:41.428 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/santoshkumarmedisetty/eclipse-workspace/OpenCartV1/master.xml
+
+21:05:34.585 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/santoshkumarmedisetty/eclipse-workspace/OpenCartV1/master.xml
+
+21:05:39.384 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Verifying Regestration Test Case Started **********
+21:05:40.137 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** clicked on create an account link **********

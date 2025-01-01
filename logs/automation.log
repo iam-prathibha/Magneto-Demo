@@ -1,0 +1,33 @@
+21:37:05.559 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Verifying Registration Test Case Finished **********
+21:37:09.466 [main] INFO  testCases.TC002_LoginTest - **************** Started verifying login test **********
+21:37:10.174 [main] INFO  testCases.TC002_LoginTest - ************* Login Page Loaded*************
+21:37:11.495 [main] INFO  testCases.TC002_LoginTest - ************ Entered the login details **************
+21:37:13.500 [main] INFO  testCases.TC002_LoginTest - ************ Entered the HomePage **************
+21:39:00.766 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Verifying Regestration Test Case Started **********
+21:39:01.424 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** clicked on create an account link **********
+21:39:01.810 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered mail : JHTyQ@gmail.com ********
+21:39:01.968 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered password : 0ndDafII@ ********
+21:39:05.737 [main] INFO  testCases.TC001_AccountRegistrationTest - ******************** Started validating the confirmation message ******************
+21:39:05.782 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Verifying Registration Test Case Finished **********
+21:39:09.559 [main] INFO  testCases.TC002_LoginTest - **************** Started verifying login test **********
+21:39:10.281 [main] INFO  testCases.TC002_LoginTest - ************* Login Page Loaded*************
+21:39:11.838 [main] INFO  testCases.TC002_LoginTest - ************ Entered the login details **************
+21:39:13.860 [main] INFO  testCases.TC002_LoginTest - ************ Entered the HomePage **************
+21:39:13.934 [main] INFO  testCases.TC002_LoginTest - ************ Entered the customers options menu **************
+21:39:19.649 [main] INFO  testCases.TC002_LoginTest - ************ Entered the MyAccountPage **************
+21:39:19.656 [main] INFO  testCases.TC002_LoginTest - ************* Verification of MyAccount Page Started *************
+21:39:19.702 [main] INFO  testCases.TC002_LoginTest - ************* Verification of Login Test is finish *************
+21:55:44.836 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Verifying Regestration Test Case Started **********
+21:55:45.581 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** clicked on create an account link **********
+21:55:46.038 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered mail : PlUyv@gmail.com ********
+21:55:46.196 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered password : wQHeetZb@ ********
+21:55:49.565 [main] INFO  testCases.TC001_AccountRegistrationTest - ******************** Started validating the confirmation message ******************
+21:55:49.595 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Verifying Registration Test Case Finished **********
+21:55:53.915 [main] INFO  testCases.TC002_LoginTest - **************** Started verifying login test **********
+21:55:54.609 [main] INFO  testCases.TC002_LoginTest - ************* Login Page Loaded*************
+21:55:56.310 [main] INFO  testCases.TC002_LoginTest - ************ Entered the login details **************
+21:55:58.325 [main] INFO  testCases.TC002_LoginTest - ************ Entered the HomePage **************
+21:55:58.393 [main] INFO  testCases.TC002_LoginTest - ************ Entered the customers options menu **************
+21:56:04.188 [main] INFO  testCases.TC002_LoginTest - ************ Entered the MyAccountPage **************
+21:56:04.208 [main] INFO  testCases.TC002_LoginTest - ************* Verification of MyAccount Page Started *************
+21:56:04.268 [main] INFO  testCases.TC002_LoginTest - ************* Verification of Login Test is finish *************

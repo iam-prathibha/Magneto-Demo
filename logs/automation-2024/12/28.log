@@ -1,0 +1,50 @@
+12:40:43.752 [main] INFO  testCases.TC002_LoginTest - **************** Started verifying login test **********
+12:40:44.515 [main] INFO  testCases.TC002_LoginTest - ************* Login Page Loaded*************
+12:40:45.926 [main] INFO  testCases.TC002_LoginTest - ************ Entered the login details **************
+12:40:47.927 [main] INFO  testCases.TC002_LoginTest - ************ Entered the HomePage **************
+12:49:06.398 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/santoshkumarmedisetty/eclipse-workspace/OpenCartV1/master.xml
+
+12:49:10.843 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Verifying Regestration Test Case Started **********
+12:49:11.554 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** clicked on create an account link **********
+12:49:11.959 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered mail : RMYUW@gmail.com ********
+12:49:12.102 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered password : irCRxGrq@ ********
+12:49:15.514 [main] INFO  testCases.TC001_AccountRegistrationTest - ******************** Started validating the confirmation message ******************
+12:49:15.557 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Verifying Registration Test Case Finished **********
+12:49:19.368 [main] INFO  testCases.TC002_LoginTest - **************** Started verifying login test **********
+12:49:20.105 [main] INFO  testCases.TC002_LoginTest - ************* Login Page Loaded*************
+12:49:21.704 [main] INFO  testCases.TC002_LoginTest - ************ Entered the login details **************
+12:49:23.708 [main] INFO  testCases.TC002_LoginTest - ************ Entered the HomePage **************
+12:53:03.053 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/santoshkumarmedisetty/eclipse-workspace/OpenCartV1/master.xml
+
+12:53:07.783 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Verifying Regestration Test Case Started **********
+12:53:08.469 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** clicked on create an account link **********
+12:53:08.862 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered mail : MEiCi@gmail.com ********
+12:53:09.018 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered password : FQVZvYtH@ ********
+12:53:12.577 [main] INFO  testCases.TC001_AccountRegistrationTest - ******************** Started validating the confirmation message ******************
+12:53:12.626 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Verifying Registration Test Case Finished **********
+12:53:16.453 [main] INFO  testCases.TC002_LoginTest - **************** Started verifying login test **********
+12:53:17.129 [main] INFO  testCases.TC002_LoginTest - ************* Login Page Loaded*************
+12:53:18.762 [main] INFO  testCases.TC002_LoginTest - ************ Entered the login details **************
+12:53:20.767 [main] INFO  testCases.TC002_LoginTest - ************ Entered the HomePage **************
+12:56:03.362 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/santoshkumarmedisetty/eclipse-workspace/OpenCartV1/master.xml
+
+12:56:13.417 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Verifying Regestration Test Case Started **********
+12:56:14.164 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** clicked on create an account link **********
+12:56:14.613 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered mail : ZSGBT@gmail.com ********
+12:56:14.774 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered password : 95nr5TtU@ ********
+12:56:18.089 [main] INFO  testCases.TC001_AccountRegistrationTest - ******************** Started validating the confirmation message ******************
+12:56:18.141 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Verifying Registration Test Case Finished **********
+12:56:21.872 [main] INFO  testCases.TC002_LoginTest - **************** Started verifying login test **********
+12:56:22.572 [main] INFO  testCases.TC002_LoginTest - ************* Login Page Loaded*************
+12:56:24.154 [main] INFO  testCases.TC002_LoginTest - ************ Entered the login details **************
+12:56:26.159 [main] INFO  testCases.TC002_LoginTest - ************ Entered the HomePage **************
+12:57:40.524 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/santoshkumarmedisetty/eclipse-workspace/OpenCartV1/master.xml
+
+12:57:44.608 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Verifying Regestration Test Case Started **********
+12:57:45.346 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** clicked on create an account link **********
+12:57:45.742 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered mail : DfvfP@gmail.com ********
+12:57:45.887 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered password : bw0ACpmE@ ********
