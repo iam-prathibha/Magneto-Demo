@@ -3,11 +3,12 @@ package testBase;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
 import java.util.Date;
 import java.util.Properties;
-import java.net.*;
+
 import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -16,6 +17,7 @@ import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -44,15 +46,18 @@ public class BaseClass {
 		if((p.getProperty("execution_env")).equalsIgnoreCase("remote")) {
 			logger.info("--------- Entered into the remote condition -----------");
 			DesiredCapabilities capabilities= new DesiredCapabilities();
-			if(os.equalsIgnoreCase("mac")) {
-				capabilities.setPlatform(Platform.LINUX);
-			}
-			else if(os.equalsIgnoreCase("windows")){
-				capabilities.setPlatform(Platform.WIN11);
-				}
-			else {
-				System.out.println("No matching OS");
-			}
+			
+			capabilities.setPlatform(Platform.LINUX);
+			
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--headless"); // Run in headless mode
+			options.addArguments("--disable-gpu"); // Disable GPU acceleration
+			options.addArguments("--no-sandbox"); // Avoid sandbox issues
+			options.addArguments("--disable-dev-shm-usage"); // Prevent /dev/shm issues in Docker
+
+			// Merge ChromeOptions into DesiredCapabilities
+			capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+			
 			//Browser
 			switch(bs.toLowerCase()) {
 			case "chrome" : capabilities.setBrowserName("chrome"); break;
