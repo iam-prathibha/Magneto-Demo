@@ -1,0 +1,48 @@
+12:09:15.175 [main] INFO  testCases.TC002_LoginTest - --------- Desired Capabilities go set -----------
+12:09:15.189 [main] INFO  testCases.TC002_LoginTest - --------- Remote URL got Set -----------
+12:13:52.212 [main] INFO  testCases.TC001_AccountRegistrationTest - --------- Entered into the remote condition -----------
+12:13:52.221 [main] INFO  testCases.TC001_AccountRegistrationTest - --------- Desired Capabilities go set -----------
+12:13:52.222 [main] INFO  testCases.TC001_AccountRegistrationTest - --------- Remote URL got Set -----------
+12:16:53.051 [main] INFO  testCases.TC002_LoginTest - --------- Entered into the remote condition -----------
+12:16:53.052 [main] INFO  testCases.TC002_LoginTest - --------- Desired Capabilities go set -----------
+12:16:53.052 [main] INFO  testCases.TC002_LoginTest - --------- Remote URL got Set -----------
+12:21:35.344 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/santoshkumarmedisetty/eclipse-workspace/OpenCartV1/master.xml
+
+12:21:35.597 [main] INFO  testCases.TC001_AccountRegistrationTest - --------- Entered into the remote condition -----------
+12:21:35.604 [main] INFO  testCases.TC001_AccountRegistrationTest - --------- Desired Capabilities go set -----------
+12:21:35.604 [main] INFO  testCases.TC001_AccountRegistrationTest - --------- Remote URL got Set -----------
+12:24:36.247 [main] INFO  testCases.TC002_LoginTest - --------- Entered into the remote condition -----------
+12:24:36.249 [main] INFO  testCases.TC002_LoginTest - --------- Desired Capabilities go set -----------
+12:24:36.249 [main] INFO  testCases.TC002_LoginTest - --------- Remote URL got Set -----------
+12:44:04.331 [main] INFO  testCases.TC001_AccountRegistrationTest - --------- Entered into the remote condition -----------
+12:44:04.341 [main] INFO  testCases.TC001_AccountRegistrationTest - --------- Desired Capabilities go set -----------
+12:44:04.341 [main] INFO  testCases.TC001_AccountRegistrationTest - --------- Remote URL got Set -----------
+12:47:04.800 [main] INFO  testCases.TC002_LoginTest - --------- Entered into the remote condition -----------
+12:47:04.801 [main] INFO  testCases.TC002_LoginTest - --------- Desired Capabilities go set -----------
+12:47:04.801 [main] INFO  testCases.TC002_LoginTest - --------- Remote URL got Set -----------
+13:24:17.089 [main] INFO  testCases.TC001_AccountRegistrationTest - --------- Entered into the remote condition -----------
+13:24:17.101 [main] INFO  testCases.TC001_AccountRegistrationTest - --------- Desired Capabilities go set -----------
+13:24:17.102 [main] INFO  testCases.TC001_AccountRegistrationTest - --------- Remote URL got Set -----------
+13:27:12.163 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  /Users/santoshkumarmedisetty/eclipse-workspace/Magneto-Demo/master.xml
+
+13:27:12.424 [main] INFO  testCases.TC001_AccountRegistrationTest - --------- Entered into the remote condition -----------
+13:27:12.430 [main] INFO  testCases.TC001_AccountRegistrationTest - --------- Desired Capabilities go set -----------
+13:27:12.431 [main] INFO  testCases.TC001_AccountRegistrationTest - --------- Remote URL got Set -----------
+13:28:29.256 [main] INFO  testCases.TC001_AccountRegistrationTest - --------- Entered into local condition -----------
+13:28:32.483 [main] INFO  testCases.TC001_AccountRegistrationTest - --------- chrome driver got created -----------
+13:28:32.516 [main] INFO  testCases.TC001_AccountRegistrationTest - --------- Trying to fetch the remote url -----------
+13:28:34.372 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** Verifying Regestration Test Case Started **********
+13:28:35.176 [main] INFO  testCases.TC001_AccountRegistrationTest - ****** clicked on create an account link **********
+13:28:35.526 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered mail : TfBJO@gmail.com ********
+13:28:35.711 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Entered password : qlDQMDHN@ ********
+13:28:39.403 [main] INFO  testCases.TC001_AccountRegistrationTest - ******************** Started validating the confirmation message ******************
+13:28:39.447 [main] INFO  testCases.TC001_AccountRegistrationTest - ******** Verifying Registration Test Case Finished **********
+13:28:39.776 [main] INFO  testCases.TC002_LoginTest - --------- Entered into local condition -----------
+13:28:41.438 [main] INFO  testCases.TC002_LoginTest - --------- chrome driver got created -----------
+13:28:41.451 [main] INFO  testCases.TC002_LoginTest - --------- Trying to fetch the remote url -----------
+13:28:42.913 [main] INFO  testCases.TC002_LoginTest - **************** Started verifying login test **********
+13:28:43.608 [main] INFO  testCases.TC002_LoginTest - ************* Login Page Loaded*************
+13:28:44.677 [main] INFO  testCases.TC002_LoginTest - ************ Entered the login details **************
+13:28:46.678 [main] INFO  testCases.TC002_LoginTest - ************ Entered the HomePage **************

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-31T21:55:39 GMT-04:00" name="MasterTestSuite" finished-at="2024-12-31T21:56:04 GMT-04:00" duration-ms="24662">
+  <suite started-at="2025-01-01T13:28:29 GMT-04:00" name="MasterTestSuite" finished-at="2025-01-01T13:29:07 GMT-04:00" duration-ms="38197">
     <groups>
       <group name="Master">
         <method signature="TC001_AccountRegistrationTest.verifyRegistrationTest()[pri:0, instance:testCases.TC001_AccountRegistrationTest@12359a82]" name="verifyRegistrationTest" class="testCases.TC001_AccountRegistrationTest"/>
@@ -15,9 +15,9 @@
         <method signature="TC001_AccountRegistrationTest.verifyRegistrationTest()[pri:0, instance:testCases.TC001_AccountRegistrationTest@12359a82]" name="verifyRegistrationTest" class="testCases.TC001_AccountRegistrationTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-12-31T21:55:39 GMT-04:00" name="chromeTest" finished-at="2024-12-31T21:56:04 GMT-04:00" duration-ms="24662">
+    <test started-at="2025-01-01T13:28:29 GMT-04:00" name="chromeTest" finished-at="2025-01-01T13:29:07 GMT-04:00" duration-ms="38197">
       <class name="testCases.TC002_LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@3f91b517]" started-at="2024-12-31T21:55:49 GMT-04:00" name="setUp" finished-at="2024-12-31T21:55:53 GMT-04:00" duration-ms="4044" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@3f91b517]" started-at="2025-01-01T13:28:39 GMT-04:00" name="setUp" finished-at="2025-01-01T13:28:42 GMT-04:00" duration-ms="3136" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,17 +33,91 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLogInTest()[pri:0, instance:testCases.TC002_LoginTest@3f91b517]" started-at="2024-12-31T21:55:53 GMT-04:00" name="verifyLogInTest" finished-at="2024-12-31T21:56:04 GMT-04:00" duration-ms="10358" status="PASS">
+        <test-method signature="verifyLogInTest()[pri:0, instance:testCases.TC002_LoginTest@3f91b517]" started-at="2025-01-01T13:28:42 GMT-04:00" name="verifyLogInTest" finished-at="2025-01-01T13:29:06 GMT-04:00" duration-ms="23818" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='panel header']//button[@class='action switch']"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a6f9e0a94ff0e657457135d5605961c, findElement {value=//div[@class='panel header']//button[@class='action switch'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: /var/folders/4n/zwmcxgy12db...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50314}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50314/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a6f9e0a94ff0e657457135d5605961c]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='panel header']//button[@class='action switch']"}
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '15.1.1', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4a6f9e0a94ff0e657457135d5605961c, findElement {value=//div[@class='panel header']//button[@class='action switch'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: /var/folders/4n/zwmcxgy12db...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50314}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50314/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4a6f9e0a94ff0e657457135d5605961c
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy27.click(Unknown Source)
+at pageObjects.HomePage.clickCustomerOptionsMenu(HomePage.java:44)
+at testCases.TC002_LoginTest.verifyLogInTest(TC002_LoginTest.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogInTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@3f91b517]" started-at="2024-12-31T21:56:04 GMT-04:00" name="tearDown" finished-at="2024-12-31T21:56:04 GMT-04:00" duration-ms="300" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@3f91b517]" started-at="2025-01-01T13:29:06 GMT-04:00" name="tearDown" finished-at="2025-01-01T13:29:07 GMT-04:00" duration-ms="253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC002_LoginTest -->
       <class name="testCases.TC001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@12359a82]" started-at="2024-12-31T21:55:40 GMT-04:00" name="setUp" finished-at="2024-12-31T21:55:44 GMT-04:00" duration-ms="4642" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_AccountRegistrationTest@12359a82]" started-at="2025-01-01T13:28:29 GMT-04:00" name="setUp" finished-at="2025-01-01T13:28:34 GMT-04:00" duration-ms="5118" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,11 +133,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyRegistrationTest()[pri:0, instance:testCases.TC001_AccountRegistrationTest@12359a82]" started-at="2024-12-31T21:55:44 GMT-04:00" name="verifyRegistrationTest" finished-at="2024-12-31T21:55:49 GMT-04:00" duration-ms="4776" status="PASS">
+        <test-method signature="verifyRegistrationTest()[pri:0, instance:testCases.TC001_AccountRegistrationTest@12359a82]" started-at="2025-01-01T13:28:34 GMT-04:00" name="verifyRegistrationTest" finished-at="2025-01-01T13:28:39 GMT-04:00" duration-ms="5078" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegistrationTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@12359a82]" started-at="2024-12-31T21:55:49 GMT-04:00" name="tearDown" finished-at="2024-12-31T21:55:49 GMT-04:00" duration-ms="249" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_AccountRegistrationTest@12359a82]" started-at="2025-01-01T13:28:39 GMT-04:00" name="tearDown" finished-at="2025-01-01T13:28:39 GMT-04:00" duration-ms="302" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

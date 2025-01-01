@@ -1,2 +1,2 @@
-cd /Users/santoshkumarmedisetty/eclipse-workspace/OpenCartV1
+cd /Users/santoshkumarmedisetty/eclipse-workspace/Magneto-Demo
 mvn test

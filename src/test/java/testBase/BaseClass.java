@@ -22,6 +22,8 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
+
+
 public class BaseClass {
 	
 	public static WebDriver driver;
@@ -40,6 +42,7 @@ public class BaseClass {
 		
 		//OS
 		if((p.getProperty("execution_env")).equalsIgnoreCase("remote")) {
+			logger.info("--------- Entered into the remote condition -----------");
 			DesiredCapabilities capabilities= new DesiredCapabilities();
 			if(os.equalsIgnoreCase("mac")) {
 				capabilities.setPlatform(Platform.MAC);
@@ -56,24 +59,30 @@ public class BaseClass {
 			case "firefox" : capabilities.setBrowserName("firefox"); break;
 			default: System.out.println("Invalid Browser"); return;
 			}
-			URL remoteUrl= new URL("http://192.168.2.29:4444/wd/hub");
+			logger.info("--------- Desired Capabilities go set -----------");
+			URL remoteUrl= new URL("http://192.168.2.29:4444/");
+			logger.info("--------- Remote URL got Set -----------");
 			driver= new RemoteWebDriver(remoteUrl,capabilities);
+			logger.info("--------- Remote web driver got created -----------");
 			
 			
 		}
 
 
 		if((p.getProperty("execution_env")).equalsIgnoreCase("local")) {
+			logger.info("--------- Entered into local condition -----------");
 			switch(bs.toLowerCase()) {
 			case "chrome" : driver=new ChromeDriver(); break;
 			case "firefox" : driver= new FirefoxDriver(); break;
 			default: System.out.println("Invalid Browser"); return;
 			}
+			logger.info("--------- chrome driver got created -----------");
 		}
 		
 		
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		logger.info("--------- Trying to fetch the remote url -----------");
 		driver.get(p.getProperty("url"));
 		
 		driver.manage().window().maximize();
